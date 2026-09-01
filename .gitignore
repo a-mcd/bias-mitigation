@@ -1,0 +1,9 @@
+.Rproj.user/
+.DS_Store
+*.Rproj
+.DS_Store
+.Rhistory
+.RData
+__pycache__/
+*.pyc
+
