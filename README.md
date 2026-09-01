@@ -1,4 +1,4 @@
-# COM772-CW2: Bias Mitigation
+# Bias Mitigation
 
 ## COMPAS Dataset
 
