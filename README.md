@@ -1,5 +1,13 @@
 # Bias Mitigation
 
+## Academic presentation
+
+This project was developed as part of my Master’s studies. The accompanying
+presentation covers the research background, fairness metrics, implementation,
+experimental results, ethical considerations and conclusions.
+
+[View the project presentation](bias-mitigation-presentation.pdf)
+
 ## COMPAS Dataset
 
 The COMPAS dataset contains information used to assess the likelihood that an individual will reoffend within two years. It includes demographic attributes, criminal history, and a risk score derived from the COMPAS algorithm. Each row represents a single defendant, and the dataset is commonly used to study algorithmic fairness and racial bias.This ia a cleaned and simplified version of the original ProPublica COMPAS dataset.
