@@ -10,8 +10,8 @@ experimental results, ethical considerations and conclusions.
 
 ## COMPAS Dataset
 
-The COMPAS dataset contains information used to assess the likelihood that an individual will reoffend within two years. It includes demographic attributes, criminal history, and a risk score derived from the COMPAS algorithm. Each row represents a single defendant, and the dataset is commonly used to study algorithmic fairness and racial bias.This ia a cleaned and simplified version of the original ProPublica COMPAS dataset.
-<br />
+The COMPAS dataset contains information used to assess the likelihood that an individual will reoffend within two years. It includes demographic attributes, criminal history, and a risk score derived from the COMPAS algorithm. Each row represents a single defendant, and the dataset is commonly used to study algorithmic fairness and racial bias. This is a cleaned and simplified version of the original ProPublica COMPAS dataset.
+<br /><br />
 6172 records.
 
 Key Columns
@@ -60,13 +60,13 @@ Produces 4 plots exploring potential disparities:
 
 ### fairness_config.py
 
-This is the fairness configuration used across the all python scripts. This file defines a single source of truth for protected and privileged attributes.
+This is the fairness configuration used across all python scripts. This file defines a single source of truth for protected and privileged attributes.
 
 <br />
 
 ### data_utils.py
 
-Data utilities provides a set of helper functions used in COMPAS fairness experiments.
+The data utilities module provides a set of helper functions used in COMPAS fairness experiments.
 
 Includes functions to 
     - load raw data
@@ -77,7 +77,7 @@ Includes functions to
 
 ### metrics_utils.py
 
-Metrics utils provides a function to evaluate machine-learning models using standard fairness metrics.
+The metrics utilities module provides a function to evaluate machine-learning models using standard fairness metrics.
 
 Metrics from AIF360:
 - Accuracy, 
