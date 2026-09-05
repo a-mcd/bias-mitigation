@@ -66,7 +66,7 @@ This is the fairness configuration used across the all python scripts. This file
 
 ### data_utils.py
 
-Data utilities provides a set of helper fucntions used in COMPAS fairness experiments.
+Data utilities provides a set of helper functions used in COMPAS fairness experiments.
 
 Includes functions to 
     - load raw data
@@ -77,9 +77,9 @@ Includes functions to
 
 ### metrics_utils.py
 
-Metrics utils provides a fucntion to evaluate machine-learning models using standard fairness metrics.
+Metrics utils provides a function to evaluate machine-learning models using standard fairness metrics.
 
-Metrivs from AIF360:
+Metrics from AIF360:
 - Accuracy, 
 - Demographic parity
 - Disparate impact
